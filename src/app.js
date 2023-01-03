@@ -20,7 +20,7 @@ res.header (
 "Origin, X-Requested-With, Content-Type, Accept, Authorization"
 );
 next();
-}):
+});
 
 const secret ="RESTAPI"
 //Router MIddlewares
