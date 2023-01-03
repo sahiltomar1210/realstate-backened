@@ -1,5 +1,5 @@
 const express = require("express");
-const PropertyInfo = require("../models/property/Property");
+const PropertyInfo = require("../../realstate-backened/models/property/property");
 const bodyparser = require("body-parser");
 const router = express.Router();
 
